@@ -1,0 +1,12 @@
+{
+  "name": "thirty5-cellar",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["thirty5", "cellar", "game", "platformer", "roguelike", "puzzle", "trap", "pixel", "2D"],
+  "author": "Falcon",
+  "license": "MIT",
+  "description": ""
+}

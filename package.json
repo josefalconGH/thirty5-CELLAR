@@ -3,10 +3,26 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js --ignore client",
+    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm run dev\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "seed": "cd server && npm run seed",
+    "build": "cd client && npm run build"
   },
   "keywords": ["thirty5", "cellar", "game", "platformer", "roguelike", "puzzle", "trap", "pixel", "2D"],
   "author": "Falcon",
   "license": "MIT",
-  "description": ""
+  "description": "Roguelike platformer puzzle game with traps and enemy targets. Explore the cellar and find the exit!",
+  "devDependencies": {
+    "concurrently": "^6.3.0",
+    "autoprefixer": "10.4.20"
+  },
+  "dependencies": {
+    "jwt-decode": "^4.0.0",
+    "tailwindcss": "^3.4.9",
+    "jsonwebtoken": "^9.0.2",
+    "@swc/core": "^1.7.6",
+    "@vitejs/plugin-react-swc": "^3.7.0"
+  }
 }

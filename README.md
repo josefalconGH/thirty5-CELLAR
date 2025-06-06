@@ -3,7 +3,7 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
 <p align="center">
-  <img src="client/src/assets/ui/title-screen.png" alt="thirty5's CELLAR Title Screen" width="600"/>
+  <img src="client/public/assets/ui/title-screen.png" alt="thirty5's CELLAR Title Screen" width="600"/>
 </p>
 
 A dark pixel-art sandbox platformer built with Phaser 3 and Vite.

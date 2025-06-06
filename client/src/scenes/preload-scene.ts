@@ -11,7 +11,7 @@ export class PreloadScene extends Phaser.Scene {
   }
 
   public preload(): void {
-    this.load.pack(ASSET_PACK_KEYS.MAIN, 'assets/data/assets.json');
+    this.load.pack(ASSET_PACK_KEYS.MAIN, '/assets/data/assets.json');
   }
 
   public create(): void {

@@ -29,4 +29,12 @@ const config: Phaser.Types.Core.GameConfig = {
 
 const game = new Phaser.Game(config);
 
+window.addEventListener('load', () => {
+  const canvas = document.querySelector('canvas');
+  if (canvas) {
+    canvas.style.imageRendering = 'pixelated';
+    canvas.style.imageRendering = 'crisp-edges';
+  }
+});
+
 game.scene.start('Boot');

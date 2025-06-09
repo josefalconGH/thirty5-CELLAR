@@ -20,7 +20,7 @@ export default class Prealoder extends Phaser.Scene {
   public preload() {
     // create preload-pack.json file
     // game assets
-    // this.load.pack('pack', 'assets/preload-pack.json');
+    this.load.pack('pack', '/assets/data/assets.json');
   }
 
   public create() {
